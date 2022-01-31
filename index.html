@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = utp-8 />
+        <title>Piedra, Papel o Tijera!</title>
+        <link rel="stylesheet" href="papel.css">
+    </head> 
+    <body>
+        <header>
+            <h1>Piedra, Papel o Tijera</h1>
+        </header>
+        <div class="tablero">
+            <div class="recuadro" id="etiqueta-usuario">USUARIO</div>
+            <div class="recuadro" id="etiqueta-cpu">CPU</div>
+            <span id="puntaje-usuario">0</span>:<span id="puntaje-cpu">0</span>
+        </div>
+
+        <div class="re-iniciar">
+            <img src="imagenes/refresh.png" width="50" height="50" alt="" onclick="javascript:window.location.reload();">
+            <figcaption style="color: black; font-size: 15px;">Re-iniciar</figcaption>
+        </div>
+
+        <div class="resultado">
+            <p>Ah Jugar!!</p>
+        </div>
+
+        <div class="opciones">
+            <div class="accion" id="pi">
+                <img src="imagenes/piedra.png" width="200" height="200" alt="">
+                <figcaption style="color: #e72b3b;">Piedra</figcaption>
+            </div>
+
+            <div class="accion" id="pa">
+                <img src="imagenes/papel.png" width="200" height="200" alt="">
+                <figcaption style="color: #009b33;">Papel</figcaption>
+            </div>
+
+            <div class="accion" id="ti">
+                <img src="imagenes/tijera.png" width="200" height="200" alt="">
+                <figcaption style="color: #0a808b;">Tijera</figcaption>
+            </div>
+        </div>
+        <div class="mensaje">
+            <p>Haga su movimiento</p>
+        </div>
+        <script src="tijera.js" charset = utp-8></script>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("imagenes/fondo.png");
+    background-size: cover;
+}
+header
+{
+    background: white;
+    padding: 30px;
+}
+header > h1
+{
+    color: #24272E;
+    text-align: center;
+    font-family: Asap, sans-serif;
+    font-size: 60px;
+}
+.tablero
+{
+    background: rgb(172, 172, 172);
+    margin: 20px auto;
+    border: 3px solid rgb(87, 87, 87);
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: rgb(87, 87, 87);
+    font-size: 50px;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+.recuadro
+{
+    background: rgb(233, 218, 18);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 4px 15px;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+}
+#etiqueta-usuario
+{
+    position: absolute;
+    top: 30px;
+    left: -84px;
+}
+#etiqueta-cpu
+{
+    position: absolute;
+    top: 30px;
+    left: 169px;
+}
+.re-iniciar
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: Asap, sans-serif;
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    border: 8px solid rgb(172, 172, 172);
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.re-iniciar:hover
+{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.re-iniciar:hover > figcaption
+{
+    display: block;
+    transition: all .5s;
+    position: absolute;
+}
+.resultado
+{
+    background: rgb(155, 153, 153);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+ 
+}
+.resultado > p
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: Asap, sans-serif;
+}
+.opciones
+{
+    margin-top: 50px 0;
+    text-align: center;
+}
+.accion
+{
+    font-weight: bold;
+    font-family: Asap, sans-serif;
+    font-size: 20px;
+    border: 8px solid rgb(172, 172, 172);
+    border-radius: 50%;
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease; 
+}
+.accion:hover
+{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.accion:hover > figcaption
+{
+    
+    display: block;
+    transition: all .5s;
+    position: absolute;
+}
+.mensaje
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: Asap, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+.brillo-verde
+{
+    border: 8px solid #0ce760;
+    box-shadow: 0 0 10px #198320;
+}
+.brillo-rojo
+{
+    border: 8px solid #d41e1e;
+    box-shadow: 0 0 10px #851414;
+}
+.brillo-amarillo
+{
+    border: 8px solid #e2df1a;
+    box-shadow: 0 0 10px #c7ca16;
+}
